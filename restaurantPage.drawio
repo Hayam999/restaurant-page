@@ -30,11 +30,38 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="UIC9b25AcivMlvOGNruw" name="Page-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="UIC9b25AcivMlvOGNruw" name="index.js">
+    <mxGraphModel dx="794" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zw0z92y8hxruBEj80OxQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zw0z92y8hxruBEj80OxQ-1" target="zw0z92y8hxruBEj80OxQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-1" value="Add Event Listener for home button" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297.5" y="120" as="targetPoint" />
+            <mxPoint x="210" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zw0z92y8hxruBEj80OxQ-2" target="zw0z92y8hxruBEj80OxQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-2" value="create reference to div #content" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-4" value="call home.js" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zw0z92y8hxruBEj80OxQ-6" target="zw0z92y8hxruBEj80OxQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zw0z92y8hxruBEj80OxQ-6" value="import home.js " style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="60" width="145" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
