@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.3" pages="3">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="635" dy="1223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -61,6 +61,43 @@
         </mxCell>
         <mxCell id="zw0z92y8hxruBEj80OxQ-6" value="import home.js " style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="225" y="60" width="145" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_8umVOMU6SZRU_KPrKJF" name="Page-3">
+    <mxGraphModel dx="794" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PlsoT4kuz8p8dgoZIhy3-4" target="PlsoT4kuz8p8dgoZIhy3-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlsoT4kuz8p8dgoZIhy3-1" target="PlsoT4kuz8p8dgoZIhy3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-1" value="define homePage()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-4" value="load mainImage" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlsoT4kuz8p8dgoZIhy3-6" target="PlsoT4kuz8p8dgoZIhy3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-6" value="append the image to #home div" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="212.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PlsoT4kuz8p8dgoZIhy3-8" target="PlsoT4kuz8p8dgoZIhy3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-8" value="create #home div" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PlsoT4kuz8p8dgoZIhy3-11" value="append #home to #content" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="293.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
