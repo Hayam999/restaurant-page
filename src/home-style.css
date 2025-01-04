@@ -13,7 +13,7 @@
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
-    background-color: #121617;
+    
   }
   
   /* 5. Improve media defaults */
@@ -52,3 +52,35 @@
     width: 2rem;
     height: 2rem;
   }
+
+  .menu-images {
+    max-width: 320px;
+    max-height: 320px;
+  }
+
+  #about-us-image {
+    max-width: 320px; 
+    max-height: 320px;
+  }
+  
+  #typesOfChoc {
+    display: flex;
+  }
+
+  .types-of-chocolate {
+    max-width: 1rem;
+    max-height: 1rem;
+  }
+
+  #chocolate-types-images {
+    display: flex;
+  }
+
+  #about-us {
+    display: flex;
+  }
+
+  #menu-div {
+    display: flex;
+  }
+  
