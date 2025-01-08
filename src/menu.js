@@ -35,7 +35,6 @@ function makeMenuDiv(img, name) {
     menuName.className = "menu-names";
     menuName.textContent = name;
 
-    
     const price = document.createElement("h6");
     price.className = "price";
     price.textContent = "0$";
@@ -51,8 +50,6 @@ export function menu() {
 
     const content = document.getElementById("content");
     content.textContent = "";
-
- 
 
     const len = ImageSources.length;
     for (let i = 0; i < len; i++) {
